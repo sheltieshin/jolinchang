@@ -1,15 +1,4 @@
-# jolinchang
-
-version: '2'
-services:
-  db:
-     image: mysql
-     environment:
-        MYSQL_ROOT_PASSWORD: 123456
-  admin:
-     image: adminer
-     ports:
-       - 8080:8080
+# 指令
 
 
 ctrl+c: shut down powershell
@@ -21,4 +10,3 @@ ctrl+c:shut down結束前端
 
 docker-compose -f dockercompose.yml -d  ()
 
-d
