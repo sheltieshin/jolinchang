@@ -1,1 +1,12 @@
 # jolinchang
+
+version: '2'
+services:
+  db:
+     image: mysql
+     environment:
+        MYSQL_ROOT_PASSWORD: 123456
+  admin:
+     image: adminer
+     ports:
+       - 8080:8080
